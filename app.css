@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background: #293447;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
 }
 
@@ -45,11 +45,13 @@ body {
 }
 
 .play-board .food {
+    border-radius: 2px;
     background: #ff003d;
 }
 
 .play-board .head {
-    background: #60cbff;
+    border-radius: 2px;
+    background: #1167b1;
 }
 
 .controls {
